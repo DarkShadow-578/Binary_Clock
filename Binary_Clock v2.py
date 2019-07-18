@@ -182,28 +182,31 @@ def secs_2(binary,led_s4,led_s5,led_s6,led_s7):
 def main():
     
 #Setting LED varibles
-    led_h1 = LED(29)
-    led_h2 = LED(28)
-    led_h3 = LED(23)
-    led_h4 = LED(24)
-    led_h5 = LED(27)
-    led_h6 = LED(25)
-    led_m1 = LED(26)
-    led_m2 = LED(22)
-    led_m3 = LED(21)
-    led_m4 = LED(10)
-    led_m5 = LED(6)
-    led_m6 = LED(5)
-    led_m7 = LED(4)
-    led_s1 = LED(1)
-    led_s2 = LED(3)
-    led_s3 = LED(2)
-    led_s4 = LED(0)
-    led_s5 = LED(7)
-    led_s6 = LED(9)
-    led_s7 = LED(8)
+
+    led_h1 = LED(21)
+    led_h2 = LED(20)
+    led_h3 = LED(13)
+    led_h4 = LED(19)
+    led_h5 = LED(16)
+    led_h6 = LED(26)
+    led_m1 = LED(5)
+    led_m2 = LED(6)
+    led_m3 = LED(12)
+    led_m4 = LED(8)
+    led_m5 = LED(25)
+    led_m6 = LED(24)
+    led_m7 = LED(23)
+    led_s1 = LED(18)
+    led_s2 = LED(22)
+    led_s3 = LED(27)
+    led_s4 = LED(17)
+    led_s5 = LED(4)
+    led_s6 = LED(3)
+    led_s7 = LED(2)
+    
 #while loop run T/F
     run = 1
+
 #Turning all LED`s off
     led_h1.off()
     led_h2.off()
